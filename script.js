@@ -130,7 +130,7 @@ function L1_m(){
 }
 function Line_group1_move(){
     L1_m();
-    setTimeout(()=>{location.href ="https://ljo424.github.io/";},500);
+    setTimeout(()=>{location.href ="https://jason810496.github.io/blog/";},500);
 }
 
 /* ======= Line Group 2 animation ======*/ 
