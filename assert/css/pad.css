@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    /* background-image: linear-gradient(red,blue);*/
+    background-color: rgb(104, 38, 38); 
+    /* background-color: linear-gradient(#e66465, #9198e5); */
+}
