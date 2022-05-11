@@ -7,7 +7,145 @@ body{
     overflow: hidden;
     max-width: 100%;
     max-height: 100%;
-    /* background-image: linear-gradient(red,blue);*/
-    background-color: rgb(104, 38, 38); 
-    /* background-color: linear-gradient(#e66465, #9198e5); */
 }
+
+
+.BG{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+}
+
+
+.box#box-1{
+    position: absolute;
+    left: -5vw;
+    top: -40vw;
+    transform: rotate(-30deg);
+}
+
+.box#box-2{
+    position: absolute;
+    
+    top:-30vw;
+    left :50vw;
+    transform: rotate(-30deg);
+}
+
+.block{
+    overflow: hidden;
+    /* background-image: url(https://i.imgur.com/AizUHEf.png); */
+    background-color: rgb(255,255,255,0.8);
+    opacity: 0.5;
+    /* background-color: inherit; */
+    border-radius: 5%;
+    margin: 10vw;
+    position: relative;
+
+    transform: scale(1,1);
+    transition: all 1s ease-in-out;
+}
+
+.block:hover{
+    transform: scale(1.07,1.07); 
+    /* transition:transform 2s ease-out 2s; */
+}
+
+#b1{
+    /* margin-left: 3vw; */
+    height: 80vw;
+    width: 40vw;
+}
+#b2{
+    /* margin-left: 3vw; */
+    height: 80vw;
+    width: 40vw;
+
+}
+#b3{
+    /* top:-30vw;
+    left :57vw; */
+    height: 130vw;
+    width: 40vw;
+    border-radius: 20px;
+}
+
+.title{
+    display: inline-block;
+    height: 7vw;
+    font-weight: bold;
+    font-size: 6.5vw;
+
+    font-family: 'Roboto Mono', monospace;
+
+    /* color: #fff; */
+    position: absolute;
+    
+    /* color: transparent; */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
+
+p{
+    /* display: inline-block; */
+    height: 20vw;
+    width: 62vw;
+    font-weight: bold;
+    font-size: 1.8vw;
+
+    font-family: 'Roboto Mono', monospace;
+
+    /* color: #fff; */
+    position: absolute;
+    top:45vw;
+    left:-2vw;
+    transform: rotate(90deg);
+    
+
+    /* color: transparent; */
+    color: rgba(0,0,0,1);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#intro_space{
+    display: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.st{
+    font-size:2.8vw;
+}
+i{
+    font-size:2.5vw;
+}
+
+.ability{
+    top:46vw;
+    left:-21vw;
+}
+
+#t1{
+    left:9vw;
+    bottom: 3vw;
+
+}
+
+#t2{
+    left: 1.5vw;
+    top: 5vw;
+
+}
+
+#t3{
+    height: 7vw;
+    font-size: 8vw;
+}
+

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<!-- this is p5.js branch  -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,59 +12,65 @@
     <link href="css/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 451px) and (max-width: 1200px)" />
     <link href="css/desktop.css" rel="stylesheet" type="text/css" /> -->
     <link href="assert/css/desktop.css" rel="stylesheet" type="text/css" />
-    <link href="assert/css/phone.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 0px) and (max-width:450px)" />
+    <link href="assert/css/pad.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 600px) and (max-width:1200px)" />
+    <link href="assert/css/phone.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 0px) and (max-width:599px)" />
     <!-- <link href="css/desktop.css" rel="stylesheet" type="text/css" /> -->
 
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="sketch.js"></script>
 </head>
 
 <body>
     <div class="BG">
-        <div class="box" id="box-1">
-            <div class="block" id="b1">
-                <span class="title" id="t1">Blog</span>
+        <div id='sketch-container' >
+            <div class="box" id="box-1">
+                <div class="block" id="b1">
+                    <span class="title" id="t1">Blog</span>
+                </div>
+                
+                <div class="block" id="b2">
+                    <span class="title" id="t2">Portfolio</span>
+                </div>
             </div>
-            
-            <div class="block" id="b2">
-                <span class="title" id="t2">Portfolio</span>
-            </div>
-        </div>
-       
-        <div class="box" id="box-2">
-            <div class="block" id="b3">
-                <p>
-                    <span id="t3">About me</span><br>
-                    <span>Hi!I'm<i>  Liu Zhe Yu</i></span><br>
-                    <span>25th director of WLCSC , lecturer of wulinginfor</span><br>
-                    <p class="ability">
-                        <span><a class="st">Knowledge:</a>algorithm,data structure,competitive programming,c/c++,python,css,JS</span><br>
-                        <span><a class="st">Learning :</a>OpenCV,SCSS,react,cybercurity</span><br>
-                        <span><a class="st">Hobbies :</a>coding,fitness,drawing</span>
+           
+            <div class="box" id="box-2">
+                <div class="block" id="b3">
+                    <p>
+                        <span id="t3">About me</span><br>
+                        <span>Hi!I'm<i>  Liu Zhe Yu</i></span><br>
+                        <span>25th director of WLCSC , lecturer of wulinginfor</span><br>
+                        <p class="ability">
+                            <span><a class="st">Knowledge:</a> Algorithm , Data structure , Competitive Programming , C/C++ , Python , Web Development</span><br>
+                            <span><a class="st">Learning:</a> OpenCV,SCSS,react,cybercurity</span><br>
+                            <span><a class="st">Hobbies:</a> coding,fitness,drawing</span>
+                        </p>
                     </p>
-                </p>
+                </div>
             </div>
-        </div>
+        
+            <!-- 
+            <div class="line-group-1" id="l1-1"></div>
+            <div class="line-group-1" id="l1-2"></div>
+            <div class="line-group-1" id="l1-3"></div>
+            <div class="line-group-1" id="l1-4"></div>
+            <div class="line-group-1" id="l1-5"></div>
+            <div class="line-group-1" id="l1-6"></div>
+            <div class="line-group-1" id="l1-7"></div>
+            <div class="line-group-1" id="l1-8"></div>
     
-        <div class="line-group-1" id="l1-1"></div>
-        <div class="line-group-1" id="l1-2"></div>
-        <div class="line-group-1" id="l1-3"></div>
-        <div class="line-group-1" id="l1-4"></div>
-        <div class="line-group-1" id="l1-5"></div>
-        <div class="line-group-1" id="l1-6"></div>
-        <div class="line-group-1" id="l1-7"></div>
-        <div class="line-group-1" id="l1-8"></div>
-
-        <div class="line-group-2" id="l2-1"></div>
-        <div class="line-group-2" id="l2-2"></div>
-        <div class="line-group-2" id="l2-3"></div>
-        <div class="line-group-2" id="l2-4"></div>
-        <div class="line-group-2" id="l2-5"></div>
-        <div class="line-group-2" id="l2-6"></div>
-        <div class="line-group-2" id="l2-7"></div>
-        <div class="line-group-2" id="l2-8"></div>
+            <div class="line-group-2" id="l2-1"></div>
+            <div class="line-group-2" id="l2-2"></div>
+            <div class="line-group-2" id="l2-3"></div>
+            <div class="line-group-2" id="l2-4"></div>
+            <div class="line-group-2" id="l2-5"></div>
+            <div class="line-group-2" id="l2-6"></div>
+            <div class="line-group-2" id="l2-7"></div>
+            <div class="line-group-2" id="l2-8"></div> -->
+        </div>
     </div>
     
     <script src="script.js"></script>
