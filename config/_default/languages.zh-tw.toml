@@ -1,0 +1,34 @@
+languageCode = "zh-tw"
+languageName = "繁體中文"
+title = "終端機"
+
+[params]
+    subtitle = "一個簡單的復古風格主題"
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "顯示更多"
+    readMore = "閱讀更多"
+    readOtherPosts = "閱讀其他文章"
+    newerPosts = "較新的文章"
+    olderPosts = "較舊的文章"
+    missingContentMessage = "頁面不存在..."
+    missingBackButtonLabel = "返回首頁"
+    minuteReadingTime = "分鐘閱讀"
+    words = "字"
+
+[params.logo]
+    logoText = "終端機"
+    logoHomeLink = "/"
+
+[menu]
+[[menu.main]]
+    identifier = "about"
+    name = "關於"
+    url = "/zh-tw/about"
+    weight = 1
+[[menu.main]]
+    identifier = "showcase"
+    name = "展示"
+    url = "/zh-tw/showcase"
+    weight = 2

@@ -1,0 +1,40 @@
+languageCode = "en"
+languageName = "English"
+title = "Terminal"
+
+[params]
+    subtitle = "A simple, retro theme for Hugo"
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime = "min read"
+    words = "words"
+
+[params.logo]
+    logoText = "Terminal"
+    logoHomeLink = "/"
+
+[menu]
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 1
+[[menu.main]]
+    identifier = "showcase"
+    name = "Showcase"
+    url = "/showcase"
+    weight = 2
+[[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "https://github.com/jason810496/Resume/blob/main/LIU_ZHE_YOU.pdf"
+    external = true
+    weight = 3
