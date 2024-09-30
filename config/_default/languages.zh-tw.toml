@@ -22,25 +22,25 @@ title = ":: zhu424"
     logoHomeLink = "/"
 
 [menu]
-[[menu.main]]
-    identifier = "about"
-    name = "關於"
-    url = "/zh-tw/about"
-    weight = 1
-[[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "https://blog.zhu424.dev/"
-    external = true
-    weight = 2
-[[menu.main]]
-    identifier = "contact"
-    name = "聯絡"
-    url = "/zh-tw/contact"
-    weight = 3
-[[menu.main]]
-    identifier = "resume"
-    name = "履歷"
-    url = "https://github.com/jason810496/Resume/blob/main/LIU_ZHE_YOU.pdf"
-    external = true
-    weight = 4
+# [[menu.main]]
+#     identifier = "about"
+#     name = "關於"
+#     url = "/zh-tw/about"
+#     weight = 1
+# [[menu.main]]
+#     identifier = "blog"
+#     name = "Blog"
+#     url = "https://blog.zhu424.dev/"
+#     external = true
+#     weight = 2
+# [[menu.main]]
+#     identifier = "contact"
+#     name = "聯絡"
+#     url = "/zh-tw/contact"
+#     weight = 3
+# [[menu.main]]
+#     identifier = "resume"
+#     name = "履歷"
+#     url = "https://github.com/jason810496/Resume/blob/main/LIU_ZHE_YOU.pdf"
+#     external = true
+#     weight = 4
