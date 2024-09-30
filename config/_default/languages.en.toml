@@ -1,10 +1,10 @@
 languageCode = "en"
 languageName = "English"
-title = "Terminal"
+title = ":: zhu424"
 
 [params]
-    subtitle = "A simple, retro theme for Hugo"
-    owner = ""
+    subtitle = ":: zhu424 ::"
+    owner = "Zhe You Liu"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -18,7 +18,7 @@ title = "Terminal"
     words = "words"
 
 [params.logo]
-    logoText = "Terminal"
+    logoText = "zhu424"
     logoHomeLink = "/"
 
 [menu]
@@ -28,13 +28,19 @@ title = "Terminal"
     url = "/about"
     weight = 1
 [[menu.main]]
-    identifier = "showcase"
-    name = "Showcase"
-    url = "/showcase"
+    identifier = "blog"
+    name = "Blog"
+    url = "https://blog.zhu424.dev/"
+    external = true
     weight = 2
+[[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 3
 [[menu.main]]
     identifier = "resume"
     name = "Resume"
     url = "https://github.com/jason810496/Resume/blob/main/LIU_ZHE_YOU.pdf"
     external = true
-    weight = 3
+    weight = 4
