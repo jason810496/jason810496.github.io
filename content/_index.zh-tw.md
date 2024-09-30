@@ -2,6 +2,7 @@
 title = "關於我"
 date = "2024-09-25"
 author = "Liu Zhe You"
+layout = "single"
 +++
 
 

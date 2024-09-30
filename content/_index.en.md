@@ -2,8 +2,8 @@
 title = "About Me"
 date = "2024-09-27"
 author = "Liu Zhe You"
+layout = "single"
 +++
-
 
 ## Contact
 
