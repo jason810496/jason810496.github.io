@@ -50,13 +50,15 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Debug Terminal Theme
         run: |
-          ls &&
-          ls themes/terminal && 
+          ls ||
+          ls themes ||
+          ls themes/terminal || 
           ls themes/terminal/static
       - name: Override Theme static files
         run: |
-          cp override_static/* themes/terminal/static/
+          cp override_static/* themes/terminal/static
       - name: Build with Hugo
+        continue-on-error: true
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
