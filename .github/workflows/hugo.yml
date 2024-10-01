@@ -45,6 +45,9 @@ jobs:
           submodules: recursive
       - name: Clone the theme
         run: mkdir -p themes/terminal && git clone --depth 1 https://github.com/panr/hugo-theme-terminal.git themes/terminal
+      - name: Overwrite theme static files
+        run: |
+          cp override_static/* themes/terminal/static/
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
