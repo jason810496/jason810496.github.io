@@ -1,0 +1,46 @@
+languageCode = "zh-tw"
+languageName = "繁體中文"
+title = ":: zhu424"
+
+[params]
+    subtitle = ":: zhu424 ::"
+    owner = "Zhe You Liu"
+    keywords = ""
+    copyright = ""
+    menuMore = "顯示更多"
+    readMore = "閱讀更多"
+    readOtherPosts = "閱讀其他文章"
+    newerPosts = "較新的文章"
+    olderPosts = "較舊的文章"
+    missingContentMessage = "頁面不存在..."
+    missingBackButtonLabel = "返回首頁"
+    minuteReadingTime = "分鐘閱讀"
+    words = "字"
+
+[params.logo]
+    logoText = "zhu424"
+    logoHomeLink = "/"
+
+[menu]
+# [[menu.main]]
+#     identifier = "about"
+#     name = "關於"
+#     url = "/zh-tw/about"
+#     weight = 1
+# [[menu.main]]
+#     identifier = "blog"
+#     name = "Blog"
+#     url = "https://blog.zhu424.dev/"
+#     external = true
+#     weight = 2
+# [[menu.main]]
+#     identifier = "contact"
+#     name = "聯絡"
+#     url = "/zh-tw/contact"
+#     weight = 3
+# [[menu.main]]
+#     identifier = "resume"
+#     name = "履歷"
+#     url = "https://github.com/jason810496/Resume/blob/main/LIU_ZHE_YOU.pdf"
+#     external = true
+#     weight = 4
